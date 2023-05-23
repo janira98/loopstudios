@@ -21,9 +21,9 @@ import IMGm8 from '../../public/mobileImg/image-fisheye.jpg'
 const CreationSection = () => {
   return (
       <div className='md:px-32 px-6'>
-          <div className='mt-40 mb-20 flex justify-between'>
+          <div className='mt-40 mb-20 flex md:justify-between justify-center'>
             <h1 className='uppercase text-4xl'>Our Creations</h1>
-            <button className='font-Alata text-[15px] uppercase border-2 py-1 px-12 border-black hover:bg-black hover:text-white tracking-widest'>See all</button>
+            <button className='font-Alata text-[15px] uppercase border-2 py-1 px-12 md:block hidden border-black hover:bg-black hover:text-white tracking-widest'>See all</button>
           </div>
           <div className='md:block hidden'>
             <div className='flex justify-between'>
